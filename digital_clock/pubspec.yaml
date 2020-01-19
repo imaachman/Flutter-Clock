@@ -12,13 +12,36 @@ dependencies:
     path: ../flutter_clock_helper
   cupertino_icons: ^0.1.2
 
+  flare_flutter: any
+
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - third_party/flare/Breeze.flr
+    - third_party/flare/Clouds.flr
+    - third_party/flare/CloudyTrees.flr
+    - third_party/flare/CloudWindyTrees.flr
+    - third_party/flare/Mist.flr
+    - third_party/flare/MistTrees.flr
+    - third_party/flare/Moon.flr
+    - third_party/flare/NightTrees.flr
+    - third_party/flare/NightWindyTrees.flr
+    - third_party/flare/SimpleRain.flr
+    - third_party/flare/Snow.flr
+    - third_party/flare/SnowTrees.flr
+    - third_party/flare/Sun.flr
+    - third_party/flare/SunnyTrees.flr
+    - third_party/flare/ThunderStorm.flr
+    - third_party/flare/Wind.flr
+    - third_party/flare/WindyTrees.flr
+
   fonts:
-    - family: PressStart2P
+    - family: Comfortaa
       fonts:
-        - asset: third_party/PressStart2P-Regular.ttf
+        - asset: third_party/fonts/Comfortaa-VariableFont_wght.ttf
